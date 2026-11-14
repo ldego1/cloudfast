@@ -29,8 +29,7 @@ return str.split("").map(ch => \`&#\${ch.charCodeAt(0)};\`).join("");
 
 setTimeout(() => {
 var hint = \`
-Warning: You are currently using a web proxy, so do not log in to any website. Click to close this hint. For further details, please visit the link below.
-警告：您当前正在使用网络代理，请勿登录任何网站。单击关闭此提示。详情请见以下链接。
+
 \`;
 
 if (document.readyState === 'complete' || document.readyState === 'interactive') {
