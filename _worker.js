@@ -1015,7 +1015,7 @@ const mainPage = `
 <body>
 <div class="container">
 <form id="urlForm" onsubmit="redirectToProxy(event)">
-    <h1>Cf-proxy-ex</h1>
+    <h1>CloudFast</h1>
     <label for="targetUrl">
         <input type="text" id="targetUrl" placeholder="Enter the target website here...">
     </label>
@@ -1025,18 +1025,18 @@ const mainPage = `
 
 <ul>
   <li>
-      如何使用 / How to use
+      How to use
       <br>
-      1. 在上方输入框输入要访问的网址 / Type the website link above
+      1.Type the website link above
       <br>
-      2.在代理网址后输入您要访问的网址 / Type the website link after the proxy website's link<br>
+      2.Type the website link after the proxy website's link<br>
   </li>
   <br>
-  <li>若显示 400 Bad Request 错误，请清本网站Cookie / Please clear this website's cookie if it shows 400 Bad Request</li>
+  <li>Cookie / Please clear this website's cookie if it shows 400 Bad Request</li>
   <br>
-  <li>由于部分网站有代码混淆，不能保证所有网页的功能或渲染正常 / Some website may perform malfunction due to JS/CSS obfuscation</li>
+  <li>Some website may perform malfunction due to JS/CSS obfuscation</li>
   <br>
-  <li><strong>强烈不建议在镜像页面中登录账号 / Strongly discourage logging into any mirrored website</strong></li>
+  <li><strong>Strongly discourage logging into any mirrored website</strong></li>
   <br><br><br>
   <li style="text-align:center;font-size: calc(100% + 2px);">
       <br>
@@ -1050,10 +1050,7 @@ const mainPage = `
 </ul>
 
 <ul style="position:absolute;bottom:15px;text-align:center;">
-<li>
-<p>本代理为 <a href="https://github.com/1234567Yang/cf-proxy-ex" target="_blank">开源项目</a> / This is an <a href="https://github.com/1234567Yang/cf-proxy-ex" target="_blank">open source project</a></p>
-<p>感谢 <a href="https://github.com/Tayasui-rainnya" target="_blank">@Tayasui-rainnya</a> 的主页设计 / Thanks for <a href="https://github.com/Tayasui-rainnya" target="_blank">@Tayasui-rainnya</a>'s home page design</p>
-</li>
+
 </ul>
 
 
