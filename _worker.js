@@ -903,7 +903,7 @@ const mainPage = `
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Cf-proxy-ex</title>
+    <title>Cloud Fast</title>
     <style>
         * {
             margin: 0;
